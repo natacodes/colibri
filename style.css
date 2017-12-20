@@ -1,0 +1,12 @@
+/*section.description-section {
+	height: 700px;
+}*/
+
+section.description-section img {
+	position: absolute;
+    right: 0;
+    left: 0;
+    height: 650px;
+    width: auto;
+    z-index: -1;
+}
