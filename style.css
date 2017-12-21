@@ -1,12 +1,134 @@
-/*section.description-section {
-	height: 700px;
-}*/
+/*--------------------------------------------------------------
+# Google Fonts
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,700');
 
-section.description-section img {
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #FF2D55;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #4E5A6F;
+}
+
+/* FIRST SECTION BACKGROUND */
+.first-section-background img {
 	position: absolute;
-    right: 0;
-    left: 0;
-    height: 650px;
-    width: auto;
-    z-index: -1;
+	top: 0;
+	right: 0;
+	width: auto;
+	z-index: -1;
+}
+
+.app-logo {
+	max-height: 80px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.appStore-button-in-descrition {
+	max-width: 180px;
+	height: auto;
+	margin-top: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+	.first-section-background img {
+	    height: 200px;
+	}
+	.app-description {
+		margin-top: 50px;
+	}
+	.first-img {
+		text-align: center;
+	}
+	.first-img img {
+		margin-top: 50px;
+		max-width: 340px;
+		height: auto;
+	}
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	.first-section-background img {
+	    height: 300px;
+	}
+	.app-description {
+		margin-top: 150px;
+	}
+	.first-img {
+		text-align: center;
+	}
+	.first-img img {
+		margin-top: 50px;
+		max-width: 340px;
+		height: auto;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.first-section-background img {
+	    height: 400px;
+	}
+	.app-description {
+		margin-top: 170px;
+	}
+	.first-img {
+		text-align: right;
+	}
+	.first-img img {
+		margin-top: 140px;
+		max-width: 280px;
+		height: auto;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.first-section-background img {
+	    height: 500px;
+	}
+	.app-description {
+		margin-top: 140px;
+	}
+	.first-img {
+		text-align: right;
+	}
+	.first-img img {
+		margin-top: 40px;
+		max-width: 320px;
+		height: auto;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.first-section-background img {
+	    height: 600px;
+	}
+	.app-description {
+		margin-top: 140px;
+	}
+	.first-img {
+		text-align: right;
+	}
+	.first-img img {
+		margin-top: 40px;
+		max-width: 320px;
+		height: auto;
+	}
 }
