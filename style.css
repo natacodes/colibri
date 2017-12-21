@@ -3,6 +3,8 @@
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,700');
 
+
+/* ALL PAGE */
 .container {
 	max-width: 960px;
 }
@@ -16,6 +18,7 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    letter-spacing: 0.8px;
 }
 
 p {
@@ -25,24 +28,30 @@ p {
 	color: #4E5A6F;
 }
 
-/* FIRST SECTION BACKGROUND */
+/* FIRST SECTION */
+
+.nav {
+	margin-top: 15px;
+}
+
+.nav-item a {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.8px;
+}
+
+.nav-item a:hover, a:focus {
+    color: #FF2D55;
+}
+
 .first-section-background img {
 	position: absolute;
 	top: 0;
 	right: 0;
 	width: auto;
 	z-index: -1;
-}
-
-.second-section-background {
-	margin-top: -50px;
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.second-section-background img {
-	z-index: -1;
-	max-width: 100%;
 }
 
 .app-logo {
@@ -57,10 +66,42 @@ p {
 	margin-top: 20px;
 }
 
+/* PRODUCT TOUR */
+
+.second-section-background {
+	margin-top: -50px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.second-section-background img {
+	position: absolute;
+	z-index: -1;
+	max-width: 100%;
+}
+
+.second-section-title h2 {
+	margin-top: 140px;
+}
+
+.product-tour-video-block {
+	margin-top: 20px;
+	border-style: solid;
+    border-width: 5px;
+    border-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* DIFFERENT SISES */
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 	.first-section-background img {
-	    height: 200px;
+	    height: 240px;
+	}
+	.nav-item a {
+	    font-size: 14px;
 	}
 	.app-description {
 		margin-top: 50px;
@@ -79,7 +120,10 @@ p {
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
 	.first-section-background img {
-	    height: 250px;
+	    height: 260px;
+	}
+	.nav-item a {
+	    font-size: 16px;
 	}
 	.app-description {
 		margin-top: 50px;
@@ -97,16 +141,16 @@ p {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {
 	.first-section-background img {
-	    height: 400px;
+	    height: 380px;
 	}
 	.app-description {
-		margin-top: 120px;
+		margin-top: 80px;
 	}
 	.first-img {
 		text-align: right;
 	}
 	.first-img img {
-		margin-top: 60px;
+		margin-top: 20px;
 		max-width: 300px;
 		height: auto;
 	}
@@ -115,7 +159,7 @@ p {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	.first-section-background img {
-	    height: 450px;
+	    height: 420px;
 	}
 	.app-description {
 		margin-top: 80px;
@@ -133,7 +177,7 @@ p {
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 	.first-section-background img {
-	    height: 500px;
+	    height: 480px;
 	}
 	.app-description {
 		margin-top: 80px;
