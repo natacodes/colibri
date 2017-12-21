@@ -3,6 +3,10 @@
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,700');
 
+.container {
+	max-width: 960px;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     color: #FF2D55;
@@ -30,13 +34,24 @@ p {
 	z-index: -1;
 }
 
+.second-section-background {
+	margin-top: -50px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.second-section-background img {
+	z-index: -1;
+	max-width: 100%;
+}
+
 .app-logo {
 	max-height: 80px;
 	width: auto;
 	margin-bottom: 20px;
 }
 
-.appStore-button-in-descrition {
+.description-appstore-button img {
 	max-width: 180px;
 	height: auto;
 	margin-top: 20px;
@@ -54,8 +69,8 @@ p {
 		text-align: center;
 	}
 	.first-img img {
-		margin-top: 50px;
-		max-width: 340px;
+		margin-top: 30px;
+		max-width: 320px;
 		height: auto;
 	}
 }
@@ -64,17 +79,17 @@ p {
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
 	.first-section-background img {
-	    height: 300px;
+	    height: 250px;
 	}
 	.app-description {
-		margin-top: 150px;
+		margin-top: 50px;
 	}
 	.first-img {
 		text-align: center;
 	}
 	.first-img img {
-		margin-top: 50px;
-		max-width: 340px;
+		margin-top: 30px;
+		max-width: 320px;
 		height: auto;
 	}
 }
@@ -85,14 +100,14 @@ p {
 	    height: 400px;
 	}
 	.app-description {
-		margin-top: 170px;
+		margin-top: 120px;
 	}
 	.first-img {
 		text-align: right;
 	}
 	.first-img img {
-		margin-top: 140px;
-		max-width: 280px;
+		margin-top: 60px;
+		max-width: 300px;
 		height: auto;
 	}
 }
@@ -100,17 +115,17 @@ p {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	.first-section-background img {
-	    height: 500px;
+	    height: 450px;
 	}
 	.app-description {
-		margin-top: 140px;
+		margin-top: 80px;
 	}
 	.first-img {
 		text-align: right;
 	}
 	.first-img img {
-		margin-top: 40px;
-		max-width: 320px;
+		margin-top: 20px;
+		max-width: 300px;
 		height: auto;
 	}
 }
@@ -118,17 +133,17 @@ p {
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 	.first-section-background img {
-	    height: 600px;
+	    height: 500px;
 	}
 	.app-description {
-		margin-top: 140px;
+		margin-top: 80px;
 	}
 	.first-img {
 		text-align: right;
 	}
 	.first-img img {
-		margin-top: 40px;
-		max-width: 320px;
+		margin-top: 20px;
+		max-width: 300px;
 		height: auto;
 	}
 }

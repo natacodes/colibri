@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1976px" height="591px" viewBox="0 0 1976 591" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="14.8809522%" y1="-16.4789898%" x2="14.8809522%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ECEBFA" offset="0%"></stop>
+            <stop stop-color="#F8F8FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-579.000000, -762.000000)">
+        <g transform="translate(-129.000000, -50.000000)" fill="url(#linearGradient-1)" id="Path-5">
+            <path d="M127,920.588437 C380,952 405.656519,840.109613 506,896.992714 C693,1003 683,884 845,920.588437 C938,951 1006.35061,775.941474 1144,818.945326 C1237,848 1264,920.588437 1406,953 C1508.3739,976.36689 1570.64763,958.705328 1652,941 C1768.66877,915.608499 1844.22217,957.662829 1934,989.541665 C2187.17705,1079.44125 2206,936.923936 2372,896.992714 C2452.78422,877.560107 2604.26793,942.780826 2684,989.541665 C2751.64006,1029.21085 2751.64006,1166.85885 2684,1402.48568 L127,1402.48568 C-41.6666667,1060.27981 -41.6666667,899.647394 127,920.588437 Z"></path>
+        </g>
+    </g>
+</svg>
