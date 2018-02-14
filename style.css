@@ -11,7 +11,7 @@
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    color: #FF2D55;
+    color: #655BA7;
     font-weight: 700;
 }
 
@@ -71,7 +71,7 @@ p {
 }
 
 .app-logo {
-	max-height: 80px;
+	max-height: 100px;
 	width: auto;
 	margin-bottom: 20px;
 }
@@ -163,7 +163,7 @@ p {
 
 .app-name-footer {
 	margin-top: 18px;
-	color: #FF2D55;
+	color: #655BA7;
 }
 
 .footer-appstore-button img {
