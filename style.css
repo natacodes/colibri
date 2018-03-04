@@ -47,7 +47,7 @@ p {
 /* FIRST SECTION */
 .firs-section {
 	/* Without navbar */
-	margin-top: 58px;
+	margin-top: 20px;
 }
 
 .nav {
@@ -200,7 +200,7 @@ p {
 }
 
 .footer-copyright p {
-	margin-top: 20px;
+	margin-top: 30px;
 	font-weight: 300;
 	font-size: 14px;
 	color: #8A8A8A;
