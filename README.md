@@ -1,2 +1,2 @@
-# melli-app-website
-Landing Page for Melli App
+# colibri-app-website
+Landing Page for Colibri Glucose Control iOS App
