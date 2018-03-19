@@ -37,10 +37,11 @@ h5 {
     font-size: 14px;
 }
 
-p {
+p, li {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	font-weight: 300;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
 	color: #4E5A6F;
 }
 
