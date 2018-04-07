@@ -45,6 +45,18 @@ p, li {
 	color: #4E5A6F;
 }
 
+a {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3f46ad;
+    letter-spacing: 0.8px;
+}
+
+a:hover, a:focus {
+    color: #3f46ad;
+}
+
 /* FIRST SECTION */
 .firs-section {
 	/* Without navbar */
