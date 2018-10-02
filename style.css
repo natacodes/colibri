@@ -274,9 +274,9 @@ a:hover, a:focus {
 	.nav-item a {
 	    font-size: 16px;
 	}
-	.app-description {
+/*	.app-description {
 		margin-top: 50px;
-	}
+	}*/
 	.first-img {
 		text-align: center;
 	}
@@ -310,9 +310,9 @@ a:hover, a:focus {
 	.first-section-background img {
 	    height: 380px;
 	}
-	.app-description {
+/*	.app-description {
 		margin-top: 80px;
-	}
+	}*/
 	.first-img {
 		text-align: right;
 	}
@@ -336,9 +336,9 @@ a:hover, a:focus {
 	.first-section-background img {
 	    height: 420px;
 	}
-	.app-description {
+/*	.app-description {
 		margin-top: 80px;
-	}
+	}*/
 	.first-img {
 		text-align: right;
 	}
@@ -354,9 +354,9 @@ a:hover, a:focus {
 	.first-section-background img {
 	    height: 480px;
 	}
-	.app-description {
+/*	.app-description {
 		margin-top: 80px;
-	}
+	}*/
 	.first-img {
 		text-align: right;
 	}
