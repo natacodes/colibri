@@ -229,9 +229,9 @@ a:hover, a:focus {
 	.nav-item a {
 	    font-size: 14px;
 	}
-	.app-description {
-		margin-top: 50px;
-	}
+/*	.app-description {
+		margin-top: 20px;
+	}*/
 	.first-img {
 		text-align: center;
 	}
